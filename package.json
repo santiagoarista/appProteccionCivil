@@ -1,0 +1,19 @@
+{
+  "name": "app-proteccion-civil-cuajimalpa",
+  "private": true,
+  "scripts": {
+    "dev:full": "cd frontend && npm run dev:full",
+    "frontend:dev": "cd frontend && npm run dev",
+    "frontend:build": "cd frontend && npm run build",
+    "backend:dev": "cd backend && npm start",
+    "db:reset": "node db/reset-database.js",
+    "db:add-samples": "node db/add-sample-reportes.js"
+  },
+  "dependencies": {
+    "argon2": "^0.31.2",
+    "dotenv": "^17.2.3",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb": "^6.20.0",
+    "react-admin": "^5.10.1"
+  }
+}
